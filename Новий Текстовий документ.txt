@@ -1,0 +1,71 @@
+\documentclass{article}
+%\usepackage[MeX]{polski}
+%\usepackage[cp1250]{inputenc}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{hyperref}
+\usepackage{makeidx}
+\usepackage[tableposition=top]{caption}
+\usepackage{algorithmic}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{amsmath} %pakiet matematyczny
+\usepackage{amssymb} %pakiet dodatkowych symboli
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{sidecap}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{lipsum}
+\usepackage{rotating}
+
+
+\title{Kolokwium v.2}
+\author{Bohdan Andreiew}
+\date{}
+\begin{document}
+\maketitle
+\section{Zadania 1}
+\subsection{Utwórz strukturę pliku}
+\subsection{Stwórz spisy}
+\tableofcontents
+\listoftables
+\listoffigures
+\section{Zadania 2}
+\subsection{Rownania 1}
+\begin{align*}
+    [\ell V](X,[Y,Z]_{Day})\simeq&\int_{c}V\bigg( X(c), \int_{c_1,c_2}V(\ell(c\otimes_{\ell}c_1,c_2),V(Y(c_1),Z(c_2)))\bigg) \\  
+    \simeq&\int_{c}int_{c_1,c_2}V(\ell(c\otimes_\ell c_1,c_2)\otimes_V  X(c)\otimes_V  Y(c_1),Z(c_2)) \\  
+    \simeq&\int_{c_2}V\bigg(\int^{c_1,c_2}\ell(c\otimes_\ell c1,c_2)\otimes_V  X(c)\otimes_V  Y(c_1),Z_{(}c_2) \bigg) \\  
+    \simeq&\int_{c_2}V((X \otimes_{Day}Y)(c_2),Z(c_2))  \\
+    \simeq&[\ell V](X \otimes_{Day}Y,Z)   \\
+e\end{align*}
+\subsection{Rownania 2}
+gfugfgrg
+\section{Zadanie 3}
+\subsection{Tabele}
+\subsubsection{Tabela 1}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{||l||llll||}
+        \hline
+        \textit{name} & \multicolumn{4}{c||}{\textit{foo}} \\
+        \hline
+        Models & A & B & C & D \\
+        Model \textit{X} & \multirow{
+        2}{*}{X1Y1} & X2 & X3 & X4 \\
+        Model \textit{Y} & $$ & Y2 & \multirow{2}{*}{Y3Z3} & Y4 \\
+        Model \textit{Z} & Z1 & Z2 & $$ & Z4 \\
+        \hline
+    \end{tabular}
+    \label{tab:1}
+    \caption{Tabela 1}
+\end{table}
+\subsection{Obrazy}
+
+\section{Zadanie 4}
+Prezentacja znajduje się w pliku KolosPrezDolega.tex
+
+\end{document}
