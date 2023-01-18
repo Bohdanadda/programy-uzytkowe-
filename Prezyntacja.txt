@@ -1,0 +1,109 @@
+\documentclass[]{beamer}
+%\usepackage[MeX]{polski}
+%\usepackage[cp1250]{inputenc}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\beamersetaveragebackground{blue!10}
+\usetheme{Warsaw}
+\usecolortheme[rgb={0.1,0.5,0.7}]{structure}
+\usepackage{beamerthemesplit}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{amsmath} %pakiet matematyczny
+\usepackage{amssymb} %pakiet dodatkowych symboli
+
+\title{Przykladowy pusty Beamer}
+\date{}
+
+\begin{document}
+
+\frame 
+{
+\frametitle{Kolarstwo}
+}
+\frame 
+{
+\frametitle{Kolarstwo}
+ Bardzo szeroki termin, odnoszący się do wielu dyscyplin, zawsze jednak związanych z korzystaniem z roweru. Nazwa wywodzi się od słowa „koło” jak początkowo nazywano w Polsce rower. Część z dyscyplin została zatwierdzona przez Międzynarodową Unię kolarską
+}
+\begin{block}
+{kolarstwo szosowe}
+uprawiane na drogach publicznych;
+\end{block}
+\begin{block}
+{kolarstwo torowe}
+uprawiane na specjalnych owalnych torach
+\end{block}
+\begin{block}
+{kolarstwo zjazdowe}
+polega wyłącznie na zjazdach z gór, bez podjazdów (konkurencja nieolimpijska)
+\end{block}
+\begin{block}
+{kolarstwo przełajowe}
+jazda po leśnych bezdrożach
+\end{block}
+\begin{block}
+{kolarstwo artystyczne}
+rowerowy „taniec”, wykonywanie różnych figur
+\end{block}
+\frame 
+{
+\begin{figure}
+\begin{center}
+    \includegraphics[scale=0.4]{gull.png}
+\end{center}
+\end{figure}
+}
+\frame
+{
+\begin{columns}
+\column{0.2\textwidth}
+\includegraphics[scale=0.2]{gull.png}
+\column{0.4\textwidth}
+\includegraphics[scale=0.2]{gull.png}
+\end{columns}
+}
+\frame
+{
+\frametitle{Kolarstwo  jaki strój potrzebny}
+\begin{itemize}
+    \item koszulki \pause 
+    \item spodenki \pause 
+    \item{buty} \pause 
+    \item{skarpeteky}
+    \end{itemize}
+}
+\frame
+{
+\frametitle{Jak zacząć ćwieczyć kolarstwo }
+\begin{itemize}
+    \item Spróbuj jazdy na rowerze górskim
+    \item Spróbuj jazdy na rowerze jako sportu
+    \item Wybierz odpowiedni sprzęt
+    \item Zachowaj bezpieczeństwo podczas jazdy na rowerze w mieście
+\end{itemize}
+}
+\frame 
+{
+\frametitle{Jakie jest najlepsze ćwiczenie na ból pleców?}
+\begin{itemize}
+    \item <1-2> Pływanie
+    \item <2-3> Jazda na rowerze
+    \item <3> Joga
+\end{itemize}
+}
+\frame 
+{
+\frametitle{Najlepszy sprzęt do domowej siłowni, który zajmuje najmniej miejsca}
+\begin{enumerate}
+    \item Bieżnie \pause|
+    \item Rowery treningowe \pause 
+    \item Maszyny do ćwiczeń \pause 
+    \item Jump roping \pause 
+    \item Wspinaczki pionowe
+\end{enumerate}
+}
+\end{document}
